@@ -49,7 +49,7 @@ services:
 
   minio:
     # https://hub.docker.com/layers/minio/minio/RELEASE.2020-01-03T19-12-21Z/images/sha256-f00aa6ef2b7286dc620aca168bf1bc9280db8461a02d293d5ae491b3d6d3006b
-    image: minio/minio@sha256:f00aa6ef2b7286dc620aca168bf1bc9280db8461a02d293d5ae491b3d6d3006b
+    image: minio/minio@sha256:10daad6aff2e8d5db5700eaa1ee148835aaed8c761c607fcbeb4a62caa1ac640
     ports:
       - "9000:9000"
     expose:
